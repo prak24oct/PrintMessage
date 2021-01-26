@@ -10,7 +10,7 @@
 #   public *;
 #}
 
-
+-keep public class com.example.printmessage.*
 -keep public class com.example.printmessage.PrintActivity { *;}
 -keepclassmembers public class com.example.printmessage.PrintActivity {
     *;
