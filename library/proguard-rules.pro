@@ -9,3 +9,6 @@
 #-keepclassmembers class fqcn.of.javascript.interface.for.webview {
 #   public *;
 #}
+
+
+-keep public class com.example.printmessage.PrintActivity.** { *;}
