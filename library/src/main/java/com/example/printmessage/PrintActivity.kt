@@ -1,15 +1,18 @@
 package com.example.printmessage
 
-import androidx.appcompat.app.AppCompatActivity
-import android.os.Bundle
+import androidx.annotation.Keep
+
 
 class PrintActivity {
 
     val name: String = "nkjdbvkjdsbv"
     val test : Int = 1
 
+    var mA = MainPr()
+
    val t =  add(5)
 
+    @Keep
     companion object{
         fun printFunction(message : String){
         println(message)

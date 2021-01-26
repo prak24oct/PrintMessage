@@ -11,4 +11,7 @@
 #}
 
 
--keep public class com.example.printmessage.PrintActivity.** { *;}
+-keep public class com.example.printmessage.PrintActivity { *;}
+-keepclassmembers public class com.example.printmessage.PrintActivity {
+    *;
+}
